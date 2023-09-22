@@ -2,8 +2,9 @@
 const canvas = document.querySelector('#canvas')
 
 // canvas configuration
-canvas.height = '1200'
-canvas.width = '800'
+
+// canvas.height = '1200'
+// canvas.width = '800'
 const context = canvas.getContext('2d')
 
 // constants
@@ -24,7 +25,15 @@ fetch('/scripts/info.json')
     infos.forEach((item) => {
       const xPinPos = item.map.x
       const yPinPos = item.map.y
-      pin(xPinPos, yPinPos, pinHeight, pinWidth, context)
+      const timeOut = Math.floor(Math.random() * 15) * 100 + 200
+      setTimeout(() => {
+        pin(xPinPos, yPinPos, pinHeight, pinWidth, context)
+      }, timeOut)
+    })
+    // Getting width of the window to calculate a responsive position on the map
+    let canvasWidth = canvas.offsetWidth
+    window.addEventListener('resize', (e) => {
+      canvasWidth = canvas.offsetWidth
     })
 
     canvas.addEventListener('click', (e) => {
@@ -39,8 +48,9 @@ fetch('/scripts/info.json')
       const x = e.offsetX
       const y = e.offsetY
       infos.forEach(item => {
-        const xPinPos = item.map.x - pinHeight / 2
-        const yPinPos = item.map.y - pinWidth
+        const responsive = resizeClickZone(item.map.x, item.map.y, canvasWidth)
+        const xPinPos = responsive.newXPos - responsive.newHeight / 2
+        const yPinPos = responsive.newYPos - responsive.newWidth
         if (x >= xPinPos && x <= xPinPos + pinWidth && y >= yPinPos && y <= yPinPos + pinHeight) {
           name.textContent = item.name
           stack.textContent = item.stack
@@ -49,18 +59,6 @@ fetch('/scripts/info.json')
           hobbies.textContent = item.hobbies
           city.textContent = item.city
           picture.innerHTML = `<img src="${item.photo}" alt="${item.name}" />`
-        }
-      })
-    })
-
-    canvas.addEventListener('mouseover', (e) => {
-      const x = e.offsetX
-      const y = e.offsetY
-      infos.forEach(item => {
-        const xPinPos = item.map.x - pinHeight / 2
-        const yPinPos = item.map.y - pinWidth
-        if (x >= xPinPos && x <= xPinPos + pinWidth && y >= yPinPos && y <= yPinPos + pinHeight) {
-          canvas.style.cursor = 'pointer'
         }
       })
     })
@@ -85,4 +83,13 @@ function pin (x, y, resizeHeight, resizeWidth, context) {
     setTimeout(() => {
     }, 700)
   }
+}
+
+function resizeClickZone (xpinPos, ypinPos, canvasWidth) {
+  const newXPos = Math.trunc(xpinPos * canvasWidth / 800)
+  const newYPos = Math.trunc(ypinPos * canvasWidth / 800)
+  const newHeight = Math.trunc(pinHeight * canvasWidth / 800)
+  const newWidth = Math.trunc(pinWidth * canvasWidth / 800)
+
+  return { newHeight, newWidth, newXPos, newYPos }
 }
