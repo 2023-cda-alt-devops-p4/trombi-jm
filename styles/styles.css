@@ -17,3 +17,13 @@ font-size: 51px;
   flex-direction: row;
   justify-content: space-between;
 }
+
+#picture {
+  width: 200px;
+  height: 200px;
+
+}
+
+#picture img {
+  height: 100%;
+}

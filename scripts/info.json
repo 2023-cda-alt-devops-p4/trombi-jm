@@ -7,8 +7,8 @@
     "linkedin": "https://www.linkedin.com/in/theo-pierson-5bab87216/",
     "photo": "/assets/photo/theo.jpg",
     "map": {
-      "x": 100,
-      "y": 100
+      "x": 368,
+      "y": 290
     }
   },
   {
@@ -17,10 +17,10 @@
     "hobbies": "Sport , Animés Japonais",
     "stack": "HTML CSS PHP Symphony",
     "linkedin": "https://www.linkedin.com/in/zakaria-laskari/",
-    "photo": "/assets/photo/zakaria.jpg",
+    "photo": "/assets/photo/zakaria.png",
     "map": {
-      "x": 200,
-      "y": 200
+      "x": 474,
+      "y": 250
     }
   },
   {
@@ -31,8 +31,8 @@
     "linkedin": "https://www.linkedin.com/in/marine-beauvois/",
     "photo": "/assets/photo/marine.jpg",
     "map": {
-      "x": 300,
-      "y": 300
+      "x": 624,
+      "y": 84
     }
   },
   { 
@@ -41,10 +41,10 @@
     "hobbies": "Cuisine , Métal Musique , Moto",
     "stack": "HTML CSS Javascript, React JS, React native, Angular", 
     "linkedin": "https://www.linkedin.com/in/092155113",
-    "photo": "/assets/photo/marine.jpg",
+    "photo": "/assets/photo/ludovic.jpg",
     "map": {
-      "x": 400,
-      "y": 400
+      "x": 457,
+      "y": 310
     }
   },
   { 
@@ -53,10 +53,10 @@
     "hobbies": "Jeux vidéos , Lecture: Manga,BD , Ecologie",
     "stack": "HTML CSS React JS PHP larabel Flutter PHP Node JS", 
     "linkedin": "https://www.linkedin.com/in/jonathan-moreschi",
-    "photo": "/assets/photo/marine.jpg",
+    "photo": "/assets/photo/jonathan.jpg",
     "map": {
-      "x": 500,
-      "y": 500
+      "x": 364,
+      "y": 923
     }
   },
   { 
@@ -65,10 +65,106 @@
     "hobbies": "Cinéma , Lecture, Podcasts, Jeux de socièté, Roller",
     "stack": "HTML CSS Angular Java My SQL", 
     "linkedin": "https://www.linkedin.com/in/camille-Lafrance-Bourillet",
-    "photo": "/assets/photo/marine.jpg",
+    "photo": "/assets/photo/camille.jpg",
     "map": {
-      "x": 600,
-      "y": 600
+      "x": 291,
+      "y": 891
+    }
+  },
+  { 
+    "name": "Nassim Deflandre",
+    "city": "Ronchin",
+    "hobbies": "Jeux-vidéos , Football",
+    "stack": "HTML CSS Doc net C#", 
+    "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    "photo": "/assets/photo/nassim.jpg",
+    "map": {
+      "x": 715,
+      "y": 243
+    }
+  },
+  { 
+    "name": "Mélanie Chauvin",
+    "city": "Lille Saint-Maurice",
+    "hobbies": " Gastronomie, Jeux vidéo",
+    "stack": "HTML CSS Doc net C#", 
+    "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    "photo": "/assets/photo/melanie.jpg",
+    "map": {
+      "x": 657,
+      "y": 139
+    }
+  },
+  { 
+    "name": "Diego Garciaco",
+    "city": "Paris",
+    "hobbies": " Musique Latino-Americain, Lecture",
+    "stack": "HTML CSS React Typescript Node JS", 
+    "linkedin": "https://www.linkedin.com/in/diego-garciaco",
+    "photo": "/assets/photo/diego.png",
+    "map": {
+      "x": 275,
+      "y": 891
+    }
+  },
+  { 
+    "name": "Audrey Carpentier",
+    "city": "Fitz James",
+    "hobbies": "Métal Musique, Boxe Française, Podcast",
+    "stack": "HTML CSS React, SQL",
+    "linkedin": "https://www.linkedin.com/in/audrey3010/",
+    "photo": "/assets/photo/audrey.jpg",
+    "map": {
+      "x": 325,
+      "y": 710
+    }
+  },
+  { 
+    "name": "Alexandre Foucher",
+    "city": "Valenciennes",
+    "hobbies": "Jeux vidéos, Animés, Manga",
+    "stack": "HTML CSS JS React Java PHP",
+    "linkedin": "https://www.linkedin.com/in/alexandre-foucher-0050571a4/",
+    "photo": "/assets/photo/alexandre.jpg",
+    "map": {
+      "x": 555,
+      "y": 380
+    }
+  },
+  { 
+    "name": "Pierre Fraisse",
+    "city": "Lille Bois-Blancs",
+    "hobbies": "Musique, Guitare, Chant",
+    "stack": "HTML CSS Angular Doc.net",
+    "linkedin": "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
+    "photo": "/assets/photo/pierre.jpg",
+    "map": {
+      "x": 520,
+      "y": 160
+    }
+  },
+  { 
+    "name": "Yassine El Azzati",
+    "city": "Arras",
+    "hobbies": "Sport, Jeux Vidéos",
+    "stack": "HTML CSS Java spring",
+    "linkedin": "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
+    "photo": "/assets/photo/yassine.jpg",
+    "map": {
+      "x": 377,
+      "y": 400
+    }
+  },
+  { 
+    "name": "Thomas Mortelette",
+    "city": "Lille",
+    "hobbies": "Sport, Jeux Vidéos",
+    "stack": "HTML CSS PHP Symphony Angular",
+    "linkedin": "https://www.linkedin.com/in/thomas-mortelette-845318190/",
+    "photo": "/assets/photo/thomas.jpg",
+    "map": {
+      "x": 619,
+      "y": 220
     }
   }
 ]
