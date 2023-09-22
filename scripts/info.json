@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test",
+    "city": "",
+    "hobbies": "",
+    "stack": "",
+    "linkedin": "",
+    "photo" :"",
+    "map" : {
+      "x": 1,
+      "y": 1
+    } 
+  }
+]
