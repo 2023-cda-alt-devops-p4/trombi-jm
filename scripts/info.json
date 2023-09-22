@@ -35,11 +35,11 @@
       "y": 84
     }
   },
-  { 
+  {
     "name": "Ludovic Phounphonh",
     "city": "Templemars",
     "hobbies": "Cuisine , Métal Musique , Moto",
-    "stack": "HTML CSS Javascript, React JS, React native, Angular", 
+    "stack": "HTML CSS Javascript, React JS, React native, Angular",
     "linkedin": "https://www.linkedin.com/in/092155113",
     "photo": "/assets/photo/ludovic.jpg",
     "map": {
@@ -47,11 +47,11 @@
       "y": 310
     }
   },
-  { 
+  {
     "name": "Jonathan Moreschi",
     "city": "Paris",
-    "hobbies": "Jeux vidéos , Lecture: Manga,BD , Ecologie",
-    "stack": "HTML CSS React JS PHP larabel Flutter PHP Node JS", 
+    "hobbies": "Jeux vidéos , Lecture: Manga,BD , Myrmecologie",
+    "stack": "HTML CSS ReactJS PHP laravel Flutter NodeJS",
     "linkedin": "https://www.linkedin.com/in/jonathan-moreschi",
     "photo": "/assets/photo/jonathan.jpg",
     "map": {
@@ -59,11 +59,11 @@
       "y": 923
     }
   },
-  { 
+  {
     "name": "Camille Lafrance-Bourillet",
     "city": "Paris",
     "hobbies": "Cinéma , Lecture, Podcasts, Jeux de socièté, Roller",
-    "stack": "HTML CSS Angular Java My SQL", 
+    "stack": "HTML CSS Angular Java My SQL",
     "linkedin": "https://www.linkedin.com/in/camille-Lafrance-Bourillet",
     "photo": "/assets/photo/camille.jpg",
     "map": {
@@ -71,11 +71,11 @@
       "y": 843
     }
   },
-  { 
+  {
     "name": "Nassim Deflandre",
     "city": "Ronchin",
     "hobbies": "Jeux-vidéos , Football",
-    "stack": "HTML CSS Doc net C#", 
+    "stack": "HTML CSS Doc net C#",
     "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
     "photo": "/assets/photo/nassim.jpg",
     "map": {
@@ -83,11 +83,11 @@
       "y": 243
     }
   },
-  { 
+  {
     "name": "Mélanie Chauvin",
     "city": "Lille Saint-Maurice",
     "hobbies": " Gastronomie, Jeux vidéo",
-    "stack": "HTML CSS Doc net C#", 
+    "stack": "HTML CSS Doc net C#",
     "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
     "photo": "/assets/photo/melanie.jpg",
     "map": {
@@ -95,19 +95,19 @@
       "y": 139
     }
   },
-  { 
+  {
     "name": "Diego Garciaco",
     "city": "Paris",
     "hobbies": " Musique Latino-Americain, Lecture",
-    "stack": "HTML CSS React Typescript Node JS", 
+    "stack": "HTML CSS React Typescript Node JS",
     "linkedin": "https://www.linkedin.com/in/diego-garciaco",
     "photo": "/assets/photo/diego.png",
     "map": {
-      "x": 126,
+      "x": 132,
       "y": 833
     }
   },
-  { 
+  {
     "name": "Audrey Carpentier",
     "city": "Fitz James",
     "hobbies": "Métal Musique, Boxe Française, Podcast",
@@ -119,7 +119,7 @@
       "y": 710
     }
   },
-  { 
+  {
     "name": "Alexandre Foucher",
     "city": "Valenciennes",
     "hobbies": "Jeux vidéos, Animés, Manga",
@@ -131,7 +131,7 @@
       "y": 380
     }
   },
-  { 
+  {
     "name": "Pierre Fraisse",
     "city": "Lille Bois-Blancs",
     "hobbies": "Musique, Guitare, Chant",
@@ -143,7 +143,7 @@
       "y": 160
     }
   },
-  { 
+  {
     "name": "Yassine El Azzati",
     "city": "Arras",
     "hobbies": "Sport, Jeux Vidéos",
@@ -155,7 +155,7 @@
       "y": 400
     }
   },
-  { 
+  {
     "name": "Thomas Mortelette",
     "city": "Lille",
     "hobbies": "Sport, Jeux Vidéos",

@@ -18,9 +18,6 @@ mapBackground(context)
 fetch('/scripts/info.json')
   .then(res => res.json())
   .then(infos => {
-    const showinfos = document.querySelector('#show_infos')
-    showinfos.style.visibility = 'hidden'
-
     // functions calls
     infos.forEach((item) => {
       const xPinPos = item.map.x
@@ -43,7 +40,9 @@ fetch('/scripts/info.json')
       const stack = document.querySelector('#stack')
       const linkedin = document.querySelector('#linkedin')
       const picture = document.querySelector('#picture')
-      showinfos.style.visibility = 'visible'
+      const showInfos = document.querySelector('#show_infos')
+
+      showInfos.style.visibility = 'hidden'
 
       const x = e.offsetX
       const y = e.offsetY
@@ -52,6 +51,11 @@ fetch('/scripts/info.json')
         const xPinPos = responsive.newXPos - responsive.newHeight / 2
         const yPinPos = responsive.newYPos - responsive.newWidth
         if (x >= xPinPos && x <= xPinPos + pinWidth && y >= yPinPos && y <= yPinPos + pinHeight) {
+          // show the card and set position
+          showInfos.style.visibility = 'visible'
+          showInfos.style.left = e.clientX + 'px'
+          showInfos.style.top = (e.clientY - 100) + 'px'
+
           name.textContent = item.name
           stack.textContent = item.stack
           linkedin.textContent = item.linkedin
