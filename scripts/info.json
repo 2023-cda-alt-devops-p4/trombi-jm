@@ -1,14 +1,38 @@
 [
   {
-    "name": "test",
-    "city": "",
-    "hobbies": "",
-    "stack": "",
-    "linkedin": "",
-    "photo" :"",
-    "map" : {
-      "x": 1,
-      "y": 1
-    } 
+    "name": "Theo Pierson",
+    "city": "Lestrem",
+    "hobbies": "Sport MMA, lecture (philosophie, romant",
+    "stack": "HTML CSS JS ReactJS",
+    "linkedin": "https://www.linkedin.com/in/theo-pierson-5bab87216/",
+    "photo": "/assets/photo/theo.jpg",
+    "map": {
+      "x": 100,
+      "y": 100
+    }
+  },
+  {
+    "name": "Zakaria",
+    "city": "Roubaix",
+    "hobbies": "Sport , Animés Japonais",
+    "stack": "HTML CSS PHP Symphony",
+    "linkedin": "https://www.linkedin.com/in/zakaria-laskari/",
+    "photo": "/assets/photo/zakaria.jpg",
+    "map": {
+      "x": 200,
+      "y": 200
+    }
+  },
+  {
+    "name": "Marine",
+    "city": "La Madeleine",
+    "hobbies": "Sport , Animés Japonais ,Jeux vidéos",
+    "stack": "HTML CSS Ruby on Rails Cobol",
+    "linkedin": "https://www.linkedin.com/in/marine-beauvois/",
+    "photo": "/assets/photo/marine.jpg",
+    "map": {
+      "x": 300,
+      "y": 300
+    }
   }
 ]
