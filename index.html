@@ -7,15 +7,27 @@
       <link rel="stylesheet" href ="styles/styles.css">
 </head>
 <body>
-    <div id="container">
+    <main id="container">
       <h1 id="title">Trombinoscope</h1>
+      <div id="map">
         <canvas id="canvas"></canvas>
-<!-- Créer les div pour l'affichage des infos -->
-  <script src="/scripts/index.js"></script>
-      <div>
-        <h3 id="#name">Coucou</h3>
+        <!-- Créer les div pour l'affichage des infos -->
+        <script src="/scripts/index.js"></script>
+        <div id="show_infos">
+          <div id="picture"></div>
+          <h4 class="infos_title">Nom :</h4>
+          <h3 id="name">Coucou</h3>
+          <h4 class="infos_title">Ville :</h4>
+          <p id="city"></p>
+          <h4 class="infos_title">Hobbies :</h4>
+          <p id="hobbies"></p>
+          <h4 class="infos_title">Stack :</h4>
+          <p id="stack"></p>
+          <h4 class="infos_title">Linkedin :</h4>
+          <p id="linkedin"></p>
 
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>

@@ -10,7 +10,9 @@ const context = canvas.getContext('2d')
 const pinWidth = 30
 const pinHeight = 50
 mapBackground(context)
-fetch('/scripts/info.json')
+
+// Fetch the JSON file with the infos
+fetch('/scripts/test.json')
   .then(res => res.json())
   .then(infos => {
     console.log(infos)
@@ -23,15 +25,15 @@ fetch('/scripts/info.json')
     })
 
     canvas.addEventListener('click', (e) => {
-      // const name = document.querySelector('#name')
+      const name = document.querySelector('#name')
+
       const x = e.offsetX
       const y = e.offsetY
-      // console.log(name)
       infos.forEach(item => {
         const xPinPos = item.map.x - pinHeight / 2
         const yPinPos = item.map.y - pinWidth
         if (x >= xPinPos && x <= xPinPos + pinWidth && y >= yPinPos && y <= yPinPos + pinHeight) {
-          console.log(item.name)
+          name.textContent = item.name
         }
       })
     })

@@ -10,3 +10,10 @@ font-size: 51px;
     align-items: center;
    justify-content: center;
 }
+
+#map{
+  width: 80vw;
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+}

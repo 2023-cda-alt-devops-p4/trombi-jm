@@ -24,7 +24,7 @@
     }
   },
   {
-    "name": "Marine",
+    "name": "Marine Beauvois",
     "city": "La Madeleine",
     "hobbies": "Sport , Animés Japonais ,Jeux vidéos",
     "stack": "HTML CSS Ruby on Rails Cobol",
@@ -33,6 +33,42 @@
     "map": {
       "x": 300,
       "y": 300
+    }
+  },
+  { 
+    "name": "Ludovic Phounphonh",
+    "city": "Templemars",
+    "hobbies": "Cuisine , Métal Musique , Moto",
+    "stack": "HTML CSS Javascript, React JS, React native, Angular", 
+    "linkedin": "https://www.linkedin.com/in/092155113",
+    "photo": "/assets/photo/marine.jpg",
+    "map": {
+      "x": 400,
+      "y": 400
+    }
+  },
+  { 
+    "name": "Jonathan Moreschi",
+    "city": "Paris",
+    "hobbies": "Jeux vidéos , Lecture: Manga,BD , Ecologie",
+    "stack": "HTML CSS React JS PHP larabel Flutter PHP Node JS", 
+    "linkedin": "https://www.linkedin.com/in/jonathan-moreschi",
+    "photo": "/assets/photo/marine.jpg",
+    "map": {
+      "x": 500,
+      "y": 500
+    }
+  },
+  { 
+    "name": "Camille Lafrance-Bourillet",
+    "city": "Paris",
+    "hobbies": "Cinéma , Lecture, Podcasts, Jeux de socièté, Roller",
+    "stack": "HTML CSS Angular Java My SQL", 
+    "linkedin": "https://www.linkedin.com/in/camille-Lafrance-Bourillet",
+    "photo": "/assets/photo/marine.jpg",
+    "map": {
+      "x": 600,
+      "y": 600
     }
   }
 ]
