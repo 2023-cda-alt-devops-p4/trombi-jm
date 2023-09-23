@@ -5,7 +5,7 @@
   --dark: rgb(12, 24, 33);
   --bg-card: rgb(228, 228, 228);
   --accent: rgb(111, 26, 7);
-  --radient: rgb(91, 142, 125);
+  --radient: #F5F0E6;
   --title-font:'Arapey', serif;
   --infos-font:'Rasa', serif;
   --content-font: 'Hind Vadodara', sans-serif;
@@ -52,6 +52,7 @@ body {
 
 #canvas {
   width: 500px;
+  filter: drop-shadow(2px 2px 10px var(--dark));
   max-width: 100%;
 }
 
@@ -91,6 +92,7 @@ body {
   align-items: center;
   padding: 2px 1px 0px 1px;
   filter: drop-shadow(2px 2px 0px var(--dark));
+  cursor: pointer;
 }
 
 #entry_card {
@@ -109,8 +111,9 @@ body {
 .infos_div {
   margin: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   width: 95%;
 }
 
@@ -121,20 +124,21 @@ body {
   font-family: var(--infos-font);
   padding: 5px 10px 0px 10px;
   margin: 10px;
-  width: 80px;
-  background-color: var(--light);
+  width: 40px;
   filter: drop-shadow(2px 2px 0px var(--dark));
 }
 
 
 .infos_content {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 #name {
-  font-size: 1.2em;
+  font-size: 1.6em;
   font-weight: bold;
+  filter: drop-shadow(0px 1px 1px var(--dark));
+  font-family: var(--infos-font);
 }
 #picture {
   width: 130px;
@@ -152,11 +156,12 @@ body {
 .rs_logo {
   width : 50px;
   height: 50px;
+  filter: drop-shadow(1px 1px 0px var(--dark));
 }
 
 @media screen and (min-width: 800px) {
   body {
-    background: linear-gradient(25deg, var(--light) 0 70%, var(--radient) 70% 100%);
+    background: linear-gradient(25deg, var(--light) 0 60%, var(--radient) 75% 100%);
   }
 
   #title {
