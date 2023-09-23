@@ -38,11 +38,9 @@ fetch('/scripts/info.json')
       canvasWidth = canvas.offsetWidth
     })
 
+    showInfos.style.visibility = 'hidden'
     // Listen when clicking on the canvas
     canvas.addEventListener('click', (e) => {
-      // Default behavior if click on the canvas where there is no pin, to close the current info card
-      showInfos.style.visibility = 'hidden'
-
       const x = e.offsetX
       const y = e.offsetY
       infos.forEach(item => {
@@ -50,15 +48,19 @@ fetch('/scripts/info.json')
         const xPinPos = responsive.newXPos - responsive.newHeight / 2
         const yPinPos = responsive.newYPos - responsive.newWidth
         if (x >= xPinPos && x <= xPinPos + pinWidth && y >= yPinPos && y <= yPinPos + pinHeight) {
-          // show the card and set position
+          // show the card and set position in desktop mode
+          showInfos.classList.remove('infos_closed')
           showInfos.style.visibility = 'visible'
-          if (window.offsetWidth > 800) {
-            showInfos.style.left = (e.clientX - 100) + 'px'
-            showInfos.style.top = e.clientY + 'px'
-          }
+          // if (window.innerWidth > 1000) {
+          //   showInfos.style.left = (e.clientX - 80) + 'px'
+          //   showInfos.style.top = e.clientY + 'px'
+          // }
           // Activate close button
           closeButton.addEventListener('click', (e) => {
-            showInfos.style.visibility = 'hidden'
+            showInfos.classList.add('infos_closed')
+            setTimeout(() => {
+              showInfos.style.visibility = 'hidden'
+            }, 500)
           })
           // Set infos from the Json file to the DOM
           name.textContent = item.name
