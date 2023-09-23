@@ -21,7 +21,7 @@ const pinHeight = 50
 mapBackground(context)
 
 // Fetch the JSON file with the infos
-fetch('scripts/info.json')
+fetch('./scripts/info.json')
   .then(res => res.json())
   .then(infos => {
     // functions calls
@@ -76,7 +76,7 @@ fetch('scripts/info.json')
 // Functions
 function mapBackground (context) {
   const bg = new window.Image()
-  bg.src = '../assets/map/map.png'
+  bg.src = 'assets/map/map.png'
   bg.onload = function () {
     context.drawImage(bg, 0, 0)
   }
@@ -86,7 +86,7 @@ function pin (x, y, resizeHeight, resizeWidth, context) {
   y = y - resizeWidth
   x = x - resizeHeight / 2
   const pinImage = new window.Image()
-  pinImage.src = '../assets/map/pin.png'
+  pinImage.src = 'assets/map/pin.png'
   pinImage.onload = function () {
     context.drawImage(pinImage, 0, 0, pinImage.width, pinImage.height, x, y, resizeWidth, resizeHeight)
     setTimeout(() => {
