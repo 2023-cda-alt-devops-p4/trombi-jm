@@ -1,10 +1,15 @@
 // querySelectors
 const canvas = document.querySelector('#canvas')
+const name = document.querySelector('#name')
+const city = document.querySelector('#city')
+const hobbies = document.querySelector('#hobbies')
+const stack = document.querySelector('#stack')
+const linkedin = document.querySelector('#linkedin')
+const picture = document.querySelector('#picture')
+const showInfos = document.querySelector('#show_infos')
+const closeButton = document.querySelector('#close_button')
 
 // canvas configuration
-
-// canvas.height = '1200'
-// canvas.width = '800'
 const context = canvas.getContext('2d')
 
 // constants
@@ -33,15 +38,9 @@ fetch('/scripts/info.json')
       canvasWidth = canvas.offsetWidth
     })
 
+    // Listen when clicking on the canvas
     canvas.addEventListener('click', (e) => {
-      const name = document.querySelector('#name')
-      const city = document.querySelector('#city')
-      const hobbies = document.querySelector('#hobbies')
-      const stack = document.querySelector('#stack')
-      const linkedin = document.querySelector('#linkedin')
-      const picture = document.querySelector('#picture')
-      const showInfos = document.querySelector('#show_infos')
-
+      // Default behavior if click on the canvas where there is no pin, to close the current info card
       showInfos.style.visibility = 'hidden'
 
       const x = e.offsetX
@@ -53,9 +52,15 @@ fetch('/scripts/info.json')
         if (x >= xPinPos && x <= xPinPos + pinWidth && y >= yPinPos && y <= yPinPos + pinHeight) {
           // show the card and set position
           showInfos.style.visibility = 'visible'
-          showInfos.style.left = e.clientX + 'px'
-          showInfos.style.top = (e.clientY - 100) + 'px'
-
+          if (window.offsetWidth > 800) {
+            showInfos.style.left = (e.clientX - 100) + 'px'
+            showInfos.style.top = e.clientY + 'px'
+          }
+          // Activate close button
+          closeButton.addEventListener('click', (e) => {
+            showInfos.style.visibility = 'hidden'
+          })
+          // Set infos from the Json file to the DOM
           name.textContent = item.name
           stack.textContent = item.stack
           linkedin.textContent = item.linkedin
