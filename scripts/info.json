@@ -4,7 +4,10 @@
     "city": "Lestrem",
     "hobbies": "Sport MMA, lecture (philosophie, romant",
     "stack": "HTML CSS JS ReactJS",
-    "linkedin": "https://www.linkedin.com/in/theo-pierson-5bab87216/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/theo-pierson-5bab87216/",
+      "github" : "https://github.com/TheoPIERSON"
+    },
     "photo": "/assets/photo/theo.jpg",
     "map": {
       "x": 368,
@@ -16,7 +19,10 @@
     "city": "Roubaix",
     "hobbies": "Sport , Animés Japonais",
     "stack": "HTML CSS PHP Symphony",
-    "linkedin": "https://www.linkedin.com/in/zakaria-laskari/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/zakaria-laskari/",
+      "github" : "https://github.com/zakkios"
+    },
     "photo": "/assets/photo/zakaria.png",
     "map": {
       "x": 474,
@@ -28,7 +34,10 @@
     "city": "La Madeleine",
     "hobbies": "Sport , Animés Japonais ,Jeux vidéos",
     "stack": "HTML CSS Ruby on Rails Cobol",
-    "linkedin": "https://www.linkedin.com/in/marine-beauvois/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/marine-beauvois/",
+      "github" : "https://github.com/mbeauvois"
+    },
     "photo": "/assets/photo/marine.jpg",
     "map": {
       "x": 624,
@@ -40,7 +49,10 @@
     "city": "Templemars",
     "hobbies": "Cuisine , Métal Musique , Moto",
     "stack": "HTML CSS Javascript, React JS, React native, Angular",
-    "linkedin": "https://www.linkedin.com/in/092155113",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/092155113",
+      "github" : "https://github.com/Ludoph"
+    },
     "photo": "/assets/photo/ludovic.jpg",
     "map": {
       "x": 457,
@@ -52,7 +64,10 @@
     "city": "Paris",
     "hobbies": "Jeux vidéos , Lecture: Manga,BD , Myrmecologie",
     "stack": "HTML CSS ReactJS PHP laravel Flutter NodeJS",
-    "linkedin": "https://www.linkedin.com/in/jonathan-moreschi",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/jonathan-moreschi",
+      "github" : "https://github.com/Eromnoj"
+    },
     "photo": "/assets/photo/jonathan.jpg",
     "map": {
       "x": 364,
@@ -64,7 +79,10 @@
     "city": "Paris",
     "hobbies": "Cinéma , Lecture, Podcasts, Jeux de socièté, Roller",
     "stack": "HTML CSS Angular Java My SQL",
-    "linkedin": "https://www.linkedin.com/in/camille-Lafrance-Bourillet",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/camille-Lafrance-Bourillet",
+      "github" : "https://github.com/CamilleLafrance/"
+    },
     "photo": "/assets/photo/camille.jpg",
     "map": {
       "x": 186,
@@ -76,7 +94,10 @@
     "city": "Ronchin",
     "hobbies": "Jeux-vidéos , Football",
     "stack": "HTML CSS Doc net C#",
-    "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+      "github" : "https://github.com/NassJs"
+    },
     "photo": "/assets/photo/nassim.jpg",
     "map": {
       "x": 715,
@@ -88,7 +109,10 @@
     "city": "Lille Saint-Maurice",
     "hobbies": " Gastronomie, Jeux vidéo",
     "stack": "HTML CSS Doc net C#",
-    "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+      "github" : "https://github.com/Melcn"
+    },
     "photo": "/assets/photo/melanie.jpg",
     "map": {
       "x": 657,
@@ -100,7 +124,10 @@
     "city": "Paris",
     "hobbies": " Musique Latino-Americain, Lecture",
     "stack": "HTML CSS React Typescript Node JS",
-    "linkedin": "https://www.linkedin.com/in/diego-garciaco",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/diego-garciaco",
+      "github" : "https://github.com/dgo-gco"
+    },
     "photo": "/assets/photo/diego.png",
     "map": {
       "x": 132,
@@ -112,7 +139,10 @@
     "city": "Fitz James",
     "hobbies": "Métal Musique, Boxe Française, Podcast",
     "stack": "HTML CSS React, SQL",
-    "linkedin": "https://www.linkedin.com/in/audrey3010/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/audrey3010/",
+      "github" : "https://github.com/AudreyAAOO"
+    },
     "photo": "/assets/photo/audrey.jpg",
     "map": {
       "x": 325,
@@ -124,7 +154,10 @@
     "city": "Valenciennes",
     "hobbies": "Jeux vidéos, Animés, Manga",
     "stack": "HTML CSS JS React Java PHP",
-    "linkedin": "https://www.linkedin.com/in/alexandre-foucher-0050571a4/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/alexandre-foucher-0050571a4/",
+      "github" : "https://github.com/AlexTakoDev"
+    },
     "photo": "/assets/photo/alexandre.jpg",
     "map": {
       "x": 555,
@@ -136,7 +169,10 @@
     "city": "Lille Bois-Blancs",
     "hobbies": "Musique, Guitare, Chant",
     "stack": "HTML CSS Angular Doc.net",
-    "linkedin": "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
+      "github" : "https://github.com/PierreFrs"
+    },
     "photo": "/assets/photo/pierre.jpg",
     "map": {
       "x": 520,
@@ -148,7 +184,10 @@
     "city": "Arras",
     "hobbies": "Sport, Jeux Vidéos",
     "stack": "HTML CSS Java spring",
-    "linkedin": "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
+      "github" : "https://github.com/YassineElazzati"
+    },
     "photo": "/assets/photo/yassine.jpg",
     "map": {
       "x": 377,
@@ -160,7 +199,10 @@
     "city": "Lille",
     "hobbies": "Sport, Jeux Vidéos",
     "stack": "HTML CSS PHP Symphony Angular",
-    "linkedin": "https://www.linkedin.com/in/thomas-mortelette-845318190/",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/thomas-mortelette-845318190/",
+      "github" : "https://github.com/DKHexDev"
+    },
     "photo": "/assets/photo/thomas.jpg",
     "map": {
       "x": 619,

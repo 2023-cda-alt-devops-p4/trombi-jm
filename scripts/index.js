@@ -5,6 +5,7 @@ const city = document.querySelector('#city')
 const hobbies = document.querySelector('#hobbies')
 const stack = document.querySelector('#stack')
 const linkedin = document.querySelector('#linkedin')
+const github = document.querySelector('#github')
 const picture = document.querySelector('#picture')
 const showInfos = document.querySelector('#show_infos')
 const closeButton = document.querySelector('#close_button')
@@ -51,10 +52,7 @@ fetch('/scripts/info.json')
           // show the card and set position in desktop mode
           showInfos.classList.remove('infos_closed')
           showInfos.style.visibility = 'visible'
-          // if (window.innerWidth > 1000) {
-          //   showInfos.style.left = (e.clientX - 80) + 'px'
-          //   showInfos.style.top = e.clientY + 'px'
-          // }
+
           // Activate close button
           closeButton.addEventListener('click', (e) => {
             showInfos.classList.add('infos_closed')
@@ -65,8 +63,8 @@ fetch('/scripts/info.json')
           // Set infos from the Json file to the DOM
           name.textContent = item.name
           stack.textContent = item.stack
-          linkedin.textContent = item.linkedin
-          linkedin.href = item.linkedin
+          linkedin.href = item.link.linkedin
+          github.href = item.link.github
           hobbies.textContent = item.hobbies
           city.textContent = item.city
           picture.innerHTML = `<img src="${item.photo}" alt="${item.name}" />`
