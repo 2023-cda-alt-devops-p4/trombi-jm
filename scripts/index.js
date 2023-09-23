@@ -21,7 +21,7 @@ const pinHeight = 50
 mapBackground(context)
 
 // Fetch the JSON file with the infos
-fetch('/scripts/info.json')
+fetch('scripts/info.json')
   .then(res => res.json())
   .then(infos => {
     // functions calls
@@ -71,7 +71,7 @@ fetch('/scripts/info.json')
         }
       })
     })
-  })
+  }).catch(err => console.log(err))
 
 // Functions
 function mapBackground (context) {
