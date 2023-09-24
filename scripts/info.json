@@ -2,7 +2,7 @@
   {
     "name": "Theo Pierson",
     "city": "Lestrem",
-    "hobbies": "Sport MMA, lecture (philosophie, romant",
+    "hobbies": "Sport MMA, lecture (philosophie, roman)",
     "stack": "HTML CSS JS ReactJS",
     "link": {
       "linkedin": "https://www.linkedin.com/in/theo-pierson-5bab87216/",
@@ -15,7 +15,7 @@
     }
   },
   {
-    "name": "Zakaria",
+    "name": "Zakaria Laskari",
     "city": "Roubaix",
     "hobbies": "Sport , Animés Japonais",
     "stack": "HTML CSS PHP Symphony",
@@ -48,7 +48,7 @@
     "name": "Ludovic Phounphonh",
     "city": "Templemars",
     "hobbies": "Cuisine , Métal Musique , Moto",
-    "stack": "HTML CSS Javascript, React JS, React native, Angular",
+    "stack": "HTML CSS Javascript, ReactJS, React native, Angular",
     "link": {
       "linkedin": "https://www.linkedin.com/in/092155113",
       "github" : "https://github.com/Ludoph"
@@ -78,7 +78,7 @@
     "name": "Camille Lafrance-Bourillet",
     "city": "Paris",
     "hobbies": "Cinéma , Lecture, Podcasts, Jeux de socièté, Roller",
-    "stack": "HTML CSS Angular Java My SQL",
+    "stack": "HTML CSS Angular Java MySQL",
     "link": {
       "linkedin": "https://www.linkedin.com/in/camille-Lafrance-Bourillet",
       "github" : "https://github.com/CamilleLafrance/"
@@ -93,7 +93,7 @@
     "name": "Nassim Deflandre",
     "city": "Ronchin",
     "hobbies": "Jeux-vidéos , Football",
-    "stack": "HTML CSS Doc net C#",
+    "stack": "HTML CSS .Net C#",
     "link": {
       "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
       "github" : "https://github.com/NassJs"
@@ -108,7 +108,7 @@
     "name": "Mélanie Chauvin",
     "city": "Lille Saint-Maurice",
     "hobbies": " Gastronomie, Jeux vidéo",
-    "stack": "HTML CSS Doc net C#",
+    "stack": "HTML CSS ReactJS Java ",
     "link": {
       "linkedin": "https://www.linkedin.com/in/nassim-d-aaa48a204/",
       "github" : "https://github.com/Melcn"
@@ -123,7 +123,7 @@
     "name": "Diego Garciaco",
     "city": "Paris",
     "hobbies": " Musique Latino-Americain, Lecture",
-    "stack": "HTML CSS React Typescript Node JS",
+    "stack": "HTML CSS React Typescript NodeJS",
     "link": {
       "linkedin": "https://www.linkedin.com/in/diego-garciaco",
       "github" : "https://github.com/dgo-gco"
@@ -138,7 +138,7 @@
     "name": "Audrey Carpentier",
     "city": "Fitz James",
     "hobbies": "Métal Musique, Boxe Française, Podcast",
-    "stack": "HTML CSS React, SQL",
+    "stack": "HTML CSS React, MySQL",
     "link": {
       "linkedin": "https://www.linkedin.com/in/audrey3010/",
       "github" : "https://github.com/AudreyAAOO"
@@ -168,7 +168,7 @@
     "name": "Pierre Fraisse",
     "city": "Lille Bois-Blancs",
     "hobbies": "Musique, Guitare, Chant",
-    "stack": "HTML CSS Angular Doc.net",
+    "stack": "HTML CSS Angular .Net",
     "link": {
       "linkedin": "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
       "github" : "https://github.com/PierreFrs"
